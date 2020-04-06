@@ -1,2 +1,2 @@
 # casoscovid19rs
-Casos de COVID-19 no Rio Grande do Sukva
+Casos de COVID-19 no Rio Grande do Sul
