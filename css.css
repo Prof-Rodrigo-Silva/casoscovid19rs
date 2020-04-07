@@ -3,7 +3,7 @@ h1{
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-image: url("../imgs/virus.webp");
+    background-image: url("virus.webp");
     background-position: 5% 25%;
     opacity: 0.8;
     text-shadow: black 0.1em 0.1em 0.2em;
