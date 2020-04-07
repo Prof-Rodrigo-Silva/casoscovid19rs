@@ -1,0 +1,76 @@
+h1{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-image: url("../imgs/virus.webp");
+    background-position: 5% 25%;
+    opacity: 0.8;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+}
+.conteudo{
+    margin-top: 15px;
+}
+.grafico{
+    text-align: center;
+}
+.grafico img{
+    margin-left: auto;
+    margin-right: auto
+}
+.atualizacoes{
+    text-align: center;
+}
+
+/* zoom na figura */
+figure.zoom {
+    background-position: 50% 50%;
+    position: relative;
+    overflow: hidden;
+    cursor: zoom-in;
+}
+figure.zoom img:hover {
+    opacity: 0;
+}
+figure.zoom img {
+    transition: opacity .4s;
+    display: block;
+    width: 100%;
+}
+
+/* rodapé */
+a:hover{
+    text-decoration:none;
+}
+.bottom {
+    background-color: #0a1c2e;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+.bottom .copyright {
+    color: #e5e5e5;
+    font-weight: 600;
+}
+.copyright a {
+    color: #f2ff49;
+    margin-left: 3px;
+    padding-right: 3px;
+}
+.linkedin{
+    margin-left: 20px;
+    width: 25px;
+    filter: contrast(0.5);
+}
+.bottom p {
+    margin-bottom: 0;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.copyright p span {
+    color: #d1caca;
+}
+.bottom .copyright p, .bottom .copyright a:hover{
+    color: #6c6d83;
+}
